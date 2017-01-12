@@ -9,7 +9,7 @@
   "author": {
     "name": "ben@innerdvations.com"
   },
-  "license": "MIT",
+  "license": "GPLv2",
   "dependencies": {
     "gulp-util": "^3.0.1",
     "nsupload": "^1.1.0",
@@ -18,7 +18,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://writetogether@bitbucket.org/writetogether/gulp-netsuite-uploader.git"
+    "url": "git+https://github.com/innerdvations/gulp-netsuite-uploader"
   },
   "keywords": [
     "gulp",

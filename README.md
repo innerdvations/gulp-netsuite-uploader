@@ -2,11 +2,11 @@
 
 ### A gulp plugin for uploading to NetSuite
 
-Rewrite of https://github.com/dturton/gulp-nsupload to work with netsuite-uploader instead of nsupload.
-
 Upload files to NetSuite.  Either choose a folder to put a new file, or (without choosing a folder) replace an existing file with the same name.
 
 Recommended for use with gulp-watch.
+
+Rewrite of https://github.com/dturton/gulp-nsupload to work with netsuite-uploader instead of nsupload.
 
 ## Installation
 
