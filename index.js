@@ -1,4 +1,4 @@
-var nsuploader = require('netsuite-uploader')
+var nsuploader = require('./node_modules/netsuite-uploader')
   , through = require('through');
 
 module.exports = function(options) {
@@ -6,8 +6,9 @@ module.exports = function(options) {
 
   nsuploader.config(options);
   return through(function(file) {
+    if(options.folder) file.folder = options.folder;
     if(file.path) {
-      nsuploader(file.path).then(function() {
+      nsuploader(file).then(function() {
         console.log(file.path + ' uploaded.');
       }, function(e) {
         console.log('Error', e);

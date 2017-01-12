@@ -12,7 +12,7 @@
   "license": "GPLv2",
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "nsupload": "^1.1.0",
+    "netsuite-uploader": "^1.0.0",
     "through": "^2.3.6"
   },
   "devDependencies": {},
