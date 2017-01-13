@@ -1,4 +1,4 @@
-var nsuploader = require('./node_modules/netsuite-uploader')
+var nsuploader = require('netsuite-uploader')
   , through = require('through');
 
 module.exports = function(options) {

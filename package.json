@@ -1,6 +1,6 @@
 {
   "name": "gulp-netsuite-uploader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp wrapper for netsuite-uploader to upload files to NetSuite.",
   "main": "index.js",
   "scripts": {
